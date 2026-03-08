@@ -32,5 +32,6 @@
 *.app
 vcpkg/
 vcpkg_installed/
+
 .idea/
 *.iml
