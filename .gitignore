@@ -35,3 +35,5 @@ vcpkg_installed/
 
 .idea/
 *.iml
+
+CMakeUserConfig.cmake

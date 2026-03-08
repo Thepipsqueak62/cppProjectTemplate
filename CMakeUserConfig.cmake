@@ -1,1 +1,0 @@
-set(VCPKG_ROOT "E:/CLion/testing/cppProjectTemplate/vcpkg")
