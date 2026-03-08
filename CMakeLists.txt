@@ -53,8 +53,8 @@ if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/tests/CMakeLists.txt)
     add_subdirectory(tests)
 endif()
 # Add testing examples
-if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/testing/CMakeLists.txt)
-    add_subdirectory(testing)
+if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/SharedDLLExample/CMakeLists.txt)
+    add_subdirectory(SharedDLLExample)
 endif()
 # ----------------------------
 # Add examples

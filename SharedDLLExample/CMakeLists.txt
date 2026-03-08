@@ -8,5 +8,5 @@ add_library(testmylibrary SHARED testmylibrary.cpp)
 target_compile_definitions(testmylibrary PRIVATE MYLIBRARY_EXPORTS)
 target_include_directories(testmylibrary PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-add_executable(testmain testmain.cpp)
-target_link_libraries(testmain PRIVATE testmylibrary)
+add_executable(SharedDLLExample testmain.cpp)
+target_link_libraries(SharedDLLExample PRIVATE testmylibrary)
