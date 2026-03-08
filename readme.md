@@ -4,7 +4,7 @@ A modern C++ project template following best practices, designed to be a solid f
 ## Setup
 This project uses vcpkg for dependency management. Before building, you need to configure your local vcpkg path.
 
-1. Copy `CMakeUserConfig.cmake.example` to `CMakeUserConfig.cmake`
+1. Copy or Rename `CMakeUserConfig.cmake.example` to `CMakeUserConfig.cmake`
 2. Open `CMakeUserConfig.cmake` and set your vcpkg installation path:
 ```cmake
 set(VCPKG_ROOT "C:/vcpkg")
